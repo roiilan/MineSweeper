@@ -12,22 +12,34 @@
 <body onload="init()">
 
     <div>
-              
-<div class="timer">Time:  </div>
-        
+
+        <div class="timer"> </div>
+        <div class="lives"> </div>
+
+        <div class="red_style">
+            <button class="hint" onclick="hintOn(this)"> 💡</button>
+            <span class="smiely"> </span>
+        </div>
 
         <table border="1">
             <tbody class="board" oncontextmenu="return false;">
-              
             </tbody>
         </table>
 
-        <button class="hint" onclick="hint()"> hint</button>
-        
+        <div>
+            <button onclick="setLevel(1)">Beginner</button>
+            <button onclick="setLevel(2)">Medium</button>
+            <button onclick="setLevel(3)">Expert</button>
+        </div>
+
     </div>
 
-
-
+    <div>
+    Best Time:
+    </div>
+    <div class="beginner"></div>
+    <div class="medium"></div>
+    <div class="expert"></div>
 
     <script src="js/game.js"></script>
 </body>

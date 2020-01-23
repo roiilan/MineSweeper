@@ -1,25 +1,58 @@
 .board td {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    
+        
+}
+body{
+margin-top: 40px;
+margin-left: 100px;
+margin-right: 100px;
+background-color: #443737;
+
 }
 
 .blank{
 background-color: gray;
 text-align: center;
-
 }
 
 .timer{
-    background-color: gray;
-    width: 100px;
-    height: 50;
-    text-align: center;
+    color: white;
+    background-color: #ff4d00;
+
+    /* text-align: center; */
 }
 
 .hint{
     align-content: center;
     background-color: gray;
+    border-color: red;
+  
 
+}
+
+.lives{
+    
+    color: gray;
+    background-color: #272121;
+    
+   
+}
+
+ .smiely button{
+    background-color: gray;
+    border-color: red;
+
+}
+
+button{
+    border-color: red;
+
+}
+
+.red_style{
+    
+    color: white;
+    background-color: #ff0000;
 }
