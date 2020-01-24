@@ -1,0 +1,61 @@
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;        
+}
+
+body{
+margin-top: 40px;
+margin-left: 100px;
+margin-right: 100px;
+background-color: #443737;
+}
+
+.blank{
+background-color: gray;
+text-align: center;
+}
+
+.timer{
+    color: white;
+    background-color: #ff4d00;
+    height: 30px;   
+  }
+
+.hint{
+    align-content: center;
+    background-color: gray;
+    border-color: red;
+}
+
+.red_style{
+    color: white;
+    background-color: #ff0000;
+    height: 30px;
+}
+
+.lives{    
+    color: gray;
+    background-color: #272121; 
+    height: 30px;     
+}
+
+ .smiely button{
+    background-color: gray;
+    border-color: red;
+}
+
+button{
+    border-color: red;
+}
+
+.bestTime{
+    color: #ff4d00;
+    margin-top: 15px;   
+    font-family: Impact, Charcoal, sans-serif;      
+}
+
+.bestTimeHead{
+    color: black;  
+    font-weight: bold;        
+}
